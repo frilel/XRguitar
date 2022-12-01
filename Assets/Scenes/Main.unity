@@ -1489,9 +1489,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d322157edad484c8183b90b316cab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OVRControllerVisual: {fileID: 1259366050}
-  MinBendingTransform: {fileID: 359382760}
-  MaxBendingTransform: {fileID: 173653377}
+  LeftHandAnchor: {fileID: 271178504}
+  TopBendingTransform: {fileID: 359382760}
+  BottomBendingTransform: {fileID: 173653377}
   BbendingLineRenderer: {fileID: 1029745052}
   BendingInfoText: {fileID: 562627824}
 --- !u!1001 &2143986197
