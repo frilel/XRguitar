@@ -7,7 +7,7 @@ public class WsClient : MonoBehaviour
     WebSocket ws;
     private void Start()
     {
-        ws = new WebSocket("ws://130.229.129.180:4321");
+        ws = new WebSocket("ws://130.229.148.129:4321");
         ws.Connect();
         ws.OnMessage += (sender, e) =>
         {
@@ -23,7 +23,8 @@ public class WsClient : MonoBehaviour
         }
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            ws.Send(new MidiMessage("noteon",5,"A4",5f,0.5f).CreateToJson());
+            ws.Send(new MidiMessage("pitchbend",2,"",0f,0.4f).CreateToJson());
+            //Debug.Log(new MidiMessage("pitchbend",2,"",0f,0.4f).CreateToJson());
         }
         //ReceiveMessage();
         
@@ -54,7 +55,8 @@ public class MidiMessage
     public string CreateToJson()
     {
         //return "{\"type\":\""+type+"\",\"channel\":"+channel+",\"attack\":"+attack+"}";
-        return "hi";
+        return $"{{\"type\":\"{type}\",\"channel\":{channel},\"note\":\"{note}\",\"attack\":{attack},\"pitchValue\":{pitchValue}}}";
+        //return "hi";
     }
     public MidiMessage(string t, int c, string n,float a,float p)
     {
