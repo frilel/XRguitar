@@ -4,33 +4,44 @@ using UnityEngine;
 using WebSocketSharp;
 using UnityEngine.InputSystem;
 using System.Collections.Concurrent;
+using UnityEngine.UI;
 public class WsClient : MonoBehaviour
 {
     WebSocket ws;
     public string ipAddress;
     private DotsVisualization dotsVisualization;
-    public Transform channelParent;
+    private GuitarManager guitarManager;
+    public Text ipAdressText;
     private void Awake()
     {
         dotsVisualization = FindObjectOfType<DotsVisualization>();
+        guitarManager = FindObjectOfType<GuitarManager>();
     }
     private readonly ConcurrentQueue<Action> _actions = new ConcurrentQueue<Action>();
     private void Start()
     {
-
+    }
+    private void SendBendingData()
+    {
+        float value = guitarManager.BBendingValue;
+        if (value > 0)
+        {
+            ws.Send(new MidiMessage("pitchbend", 1, "", 0f, value).CreateToJson());
+        }
+    }
+    private void ConnectToWSS()
+    {
         ws = new WebSocket("ws://" + ipAddress + ":4321");
         ws.Connect();
         ws.OnMessage += (sender, e) =>
         {
             _actions.Enqueue(() => OnReceive(e));
         };
-        /*MidiMessage temp = MidiMessage.CreateFromJSON(new MidiMessage("pitchbend", 2, "A#4", 0f, 0.4f).CreateToJson());
-        MidiMessage message = temp;
-        string noteAlphabet = Regex.Replace(message.note, "[0-9]", "");
-        string noteOctave = Regex.Replace(message.note, "[^0-9]", "");
-        string dotName = message.channel + "-" + noteAlphabet + "-" + noteOctave;
-        //Debug.Log(dotName);
-        dotsVisualization.Visualize(message.channel, dotName);*/
+    }
+    public void SetIpAddress()
+    {
+        ipAddress = ipAdressText.text;
+        ConnectToWSS();
     }
     private void Update()
     {
@@ -50,7 +61,12 @@ public class WsClient : MonoBehaviour
                 action?.Invoke();
             }
         }
+
         //ReceiveMessage();
+    }
+    private void FixedUpdate()
+    {
+        SendBendingData();
     }
     private static void OnReceive(MessageEventArgs e)
     {
@@ -63,22 +79,6 @@ public class WsClient : MonoBehaviour
         //Debug.Log(dotName);
         DotsVisualization.Instance.Visualize(message.channel, dotName);
     }
-    /*private void ReceiveMessage()
-    {
-        //ws.OnMessage
-        ws.OnMessage += (sender, e) =>
-        {
-            Debug.Log("Message Received from " + ((WebSocket)sender).Url + ", Data : " + e.Data);
-            MidiMessage message = MidiMessage.CreateFromJSON(e.Data);
-            string noteAlphabet = Regex.Replace(message.note, "[0-9]", "");
-            string noteOctave = Regex.Replace(message.note, "[^0-9]", "");
-            string dotName = message.channel + "-" + noteAlphabet + "-" + noteOctave;
-            //Debug.Log(dotName);
-            dotsVisualization.Visualize(message.channel, dotName);
-
-        };
-
-    }*/
 }
 [System.Serializable]
 public class MidiMessage
@@ -107,9 +107,4 @@ public class MidiMessage
         attack = a;
         pitchValue = p;
     }
-
-    // Given JSON input:
-    // {"name":"Dr Charles","lives":3,"health":0.8}
-    // this example will return a PlayerInfo object with
-    // name == "Dr Charles", lives == 3, and health == 0.8f.
 }

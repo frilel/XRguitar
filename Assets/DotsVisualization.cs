@@ -26,7 +26,7 @@ public class DotsVisualization : MonoBehaviour
         //Debug.Log("fffffff"+(channel - 1).ToString()+"name:"+dotName);
         //Debug.Log(channel);
         Transform channelObject;
-        if (channelParent.transform.GetChild(channel - 1))
+        if ((channel-1)>=0&&(channel-1)<=5)
         {
             channelObject = channelParent.transform.GetChild(channel - 1);
         }
