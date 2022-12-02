@@ -64,7 +64,7 @@ public class GuitarManager : MonoBehaviour
     {
         if (!HoverButtons || !BendingFeedback) return;
 
-        if (OVRInput.GetDown(OVRInput.RawButton.A))
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
             HoverButtons.SetActive(!HoverButtons.activeSelf);
 
         if (HoverButtons.activeSelf)

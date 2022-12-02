@@ -1031,7 +1031,7 @@ PrefabInstance:
         right button.
 
 
-        (Press A to remove this UI.)'
+        (Press "B" to remove this UI.)'
       objectReference: {fileID: 0}
     - target: {fileID: 8628326224120125550, guid: a7519e9ec5ac8b4449d6829841985c81, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.size
