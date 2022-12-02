@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
     guid: 509f8fa80c708b343a603a4771d35c85
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 1b6c58a5ac793e04fafac0f7b26a9045
+  - enabled: 1
+    path: Assets/Scenes/Christian.unity
+    guid: f7c3fa543ad5dfe42b75efc131272578
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7d3239076f576dc43a6fea213ead098b, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: bd8a5bd51d6434e44889d5d2dab08d1b, type: 2}
