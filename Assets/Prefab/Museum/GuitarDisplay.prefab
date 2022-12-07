@@ -1,0 +1,1117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3622646757172808529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2828575447003989508}
+  - component: {fileID: 7592912609288046465}
+  m_Layer: 0
+  m_Name: GuitarDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2828575447003989508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622646757172808529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0173247, y: 0.5403783, z: 5.305397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4906307161385076679}
+  - {fileID: 3348332055202990062}
+  - {fileID: 706374031915462239}
+  - {fileID: 1402901747084345623}
+  - {fileID: 8664057911253198214}
+  - {fileID: 106953057926395243}
+  - {fileID: 2616973723209242395}
+  - {fileID: 1343680125656750927}
+  - {fileID: 6842563482086936633}
+  - {fileID: 6074950551363743761}
+  - {fileID: 5606941434411137493}
+  - {fileID: 340640913550386822}
+  - {fileID: 7878264188002370111}
+  - {fileID: 1903705825027200435}
+  - {fileID: 1742412028240890605}
+  - {fileID: 5447621397805637478}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7592912609288046465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622646757172808529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8cca74b1372fa448d37d4c9084c521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &526099286600140879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972000243401566110, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_Name
+      value: Bass Guitar Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 972000243401566110, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+--- !u!4 &106953057926395243 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 447806616880512292, guid: 855cded069897ea4f90b7a0cb9ebeb97, type: 3}
+  m_PrefabInstance: {fileID: 526099286600140879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1064182124719038071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135029683822530080, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135029683822530080, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+--- !u!4 &1742412028240890605 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1651403256348824730, guid: 7ff9fc2ef09d8af4b9cb49d2dfe076de, type: 3}
+  m_PrefabInstance: {fileID: 1064182124719038071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1247567949133887892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 5873333900406455368, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873333900406455368, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+--- !u!4 &5447621397805637478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6541925672062559986, guid: 94a2999f8c2131645b3a13d73dedf6ad, type: 3}
+  m_PrefabInstance: {fileID: 1247567949133887892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1940160777729430342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 206918102292220139, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_Name
+      value: Acoustic Guitar Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 206918102292220139, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+--- !u!4 &1402901747084345623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 690403444716573265, guid: 7f10fa6b95256c14182ebf7854c57ed3, type: 3}
+  m_PrefabInstance: {fileID: 1940160777729430342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3384327994740890943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883904375993046972, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Arrow Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883904375993046972, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+--- !u!4 &6842563482086936633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8071056752372272390, guid: 97a6a8e3d4cc01145b34b6ead620bb03, type: 3}
+  m_PrefabInstance: {fileID: 3384327994740890943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3482402646624497076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007735608649673793, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_Name
+      value: Bass Guitar Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007735608649673793, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+--- !u!4 &1343680125656750927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519288131307124475, guid: 7c789caad1cd0e043ae651e082e2deee, type: 3}
+  m_PrefabInstance: {fileID: 3482402646624497076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3757928055093658788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962545479271991557, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_Name
+      value: Bass Guitar Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962545479271991557, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+--- !u!4 &2616973723209242395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1186571077535273919, guid: 6bd1b81834f3c2c4aa310c784b454564, type: 3}
+  m_PrefabInstance: {fileID: 3757928055093658788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4229188862468033882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315974567727641190, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_Name
+      value: Bass Guitar Beige
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315974567727641190, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+--- !u!4 &8664057911253198214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4795755366784362716, guid: 2a7b4c49e4c79db44900eb072b238ae9, type: 3}
+  m_PrefabInstance: {fileID: 4229188862468033882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4576893370445746095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719091400593681600, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Arrow Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719091400593681600, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+--- !u!4 &5606941434411137493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8235887185572460154, guid: 5327d725be106f34d8fbdc6d626a4fd0, type: 3}
+  m_PrefabInstance: {fileID: 4576893370445746095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4773940616361755332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944934864575864761, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_Name
+      value: Acoustic Guitar Beige
+      objectReference: {fileID: 0}
+    - target: {fileID: 944934864575864761, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+--- !u!4 &4906307161385076679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 456770030170621187, guid: 811b0991eb22c264eb7ac00f09ac5307, type: 3}
+  m_PrefabInstance: {fileID: 4773940616361755332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4878139074248331827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495308623168187919, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Arrow White
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495308623168187919, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+--- !u!4 &340640913550386822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5118502326979851445, guid: 54a8bcd93dc11f64fb14771004f8ff5f, type: 3}
+  m_PrefabInstance: {fileID: 4878139074248331827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5014915956586076724
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 6104644198469113149, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6104644198469113149, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+--- !u!4 &1903705825027200435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6914112993648627591, guid: 6c2d06a7e7f30094caecee2fb9835872, type: 3}
+  m_PrefabInstance: {fileID: 5014915956586076724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5947130470138380368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 5768592682961204405, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_Name
+      value: Acoustic Guitar Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 5768592682961204405, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+--- !u!4 &706374031915462239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6576936436424093199, guid: f97c64c22ee1f454a939a63a7d3988cf, type: 3}
+  m_PrefabInstance: {fileID: 5947130470138380368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7042705723116069669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 550090820495211424, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 550090820495211424, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+--- !u!4 &7878264188002370111 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 930415549867991322, guid: 0ad7adf524305e54d9561d0f86c443ae, type: 3}
+  m_PrefabInstance: {fileID: 7042705723116069669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8564334878282379536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017410417777138619, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_Name
+      value: Electric Guitar Arrow Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017410417777138619, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+--- !u!4 &6074950551363743761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2491667505833771265, guid: 8e945a1942fb8b24baf366936e1340b4, type: 3}
+  m_PrefabInstance: {fileID: 8564334878282379536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8819220667657637252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2828575447003989508}
+    m_Modifications:
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870329843663868112, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_Name
+      value: Acoustic Guitar Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870329843663868112, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+--- !u!4 &3348332055202990062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6058326914767637098, guid: 8fff1087720c3d24389c0b5211fb034f, type: 3}
+  m_PrefabInstance: {fileID: 8819220667657637252}
+  m_PrefabAsset: {fileID: 0}
