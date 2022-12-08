@@ -14,9 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Christian.unity
     guid: f7c3fa543ad5dfe42b75efc131272578
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Environment.unity
     guid: afa07e2239ba9f64999cb20077da52d4
+  - enabled: 0
+    path: Assets/Scenes/EnvironmentTest.unity
+    guid: 3c22c9394fe77604aa5912e4c92551a4
+  - enabled: 0
+    path: Assets/Scenes/Build.unity
+    guid: 90e1cb64fbf8e3e4c997aec270f22bb8
+  - enabled: 1
+    path: Assets/Scenes/ChristianCopy.unity
+    guid: 54bc31104896b8240960bb98a585e9bb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7d3239076f576dc43a6fea213ead098b, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: bd8a5bd51d6434e44889d5d2dab08d1b, type: 2}

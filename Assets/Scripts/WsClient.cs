@@ -12,6 +12,7 @@ public class WsClient : MonoBehaviour
     private DotsVisualization dotsVisualization;
     private GuitarManager guitarManager;
     public Text ipAdressText;
+    public GameObject ipPanel;
     private void Awake()
     {
         dotsVisualization = FindObjectOfType<DotsVisualization>();
@@ -35,6 +36,10 @@ public class WsClient : MonoBehaviour
         ws.Connect();
         ws.OnMessage += (sender, e) =>
         {
+            if (ipPanel.activeSelf)
+            {
+                ipPanel.SetActive(false);
+            }
             _actions.Enqueue(() => OnReceive(e));
         };
     }
