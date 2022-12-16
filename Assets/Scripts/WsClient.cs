@@ -35,6 +35,7 @@ public class WsClient : MonoBehaviour
         ws.Connect();
         ws.OnMessage += (sender, e) =>
         {
+
             _actions.Enqueue(() => OnReceive(e));
         };
     }
@@ -70,6 +71,14 @@ public class WsClient : MonoBehaviour
     }
     private static void OnReceive(MessageEventArgs e)
     {
+        if (GameObject.Find("IPaddressUI"))
+        {
+            if (GameObject.Find("IPaddressUI").activeSelf)
+            {
+                GameObject.Find("IPaddressUI").SetActive(false);
+            }
+        }
+
         //Debug.Log("Message Received from " + ((WebSocket)sender).Url + ", Data : " + e.Data);
         //Debug.Log("Message Received from " + ((WebSocket)sender).Url + ", Data : " + e.Data);
         MidiMessage message = MidiMessage.CreateFromJSON(e.Data);
